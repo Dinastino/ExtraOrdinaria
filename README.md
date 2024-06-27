@@ -12,7 +12,7 @@ La respuesta es la b.Un archivo que ayuda a gestionar y automatizar la compilaci
 
 **¿Cómo se inicia un comentario de varias líneas en C++?**
 
-Se inicia con "//" por ejeplo: //Esto es una clase.
+Se inicia con a."//" por ejeplo: //Esto es una clase.
 
 **¿Cuál es la principal diferencia entre un puntero y una referencia en C++?**
 
