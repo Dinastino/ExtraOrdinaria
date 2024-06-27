@@ -42,8 +42,12 @@ int main() {
     Estudiante est2("Juan", 21, "4to");
     est2.agregarEstudiante();
     est1.mostrarEstudiantes();//llamada a la funcion mostrarEstudiantes
-    est1.mostrar_info();
+    est1.mostrar_info();//llamada a la funcion mostrar_info
+
+    est1.eliminarEstudiante("Carlos");//llamada a la funcion eliminarEstudiante
+    est1.mostrarEstudiantes();
     cout << "-------------------" << endl;
+
 
     return 0;
 }
