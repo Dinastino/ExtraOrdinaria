@@ -8,19 +8,20 @@
 #include <string>
 #include <vector>
 
-using namespace std; //Header de la clase: aqui se especifican la
+using namespace std; //Header de la clase: aqui se especifican las funciones y variables que se van a utilizar en la clase
 class Estudiante {
-public:
+private:  //Parte privada de la clase, No acesible desde fuera de la misma
     string nombre;
-    int edad;
+    int edad;  //Variables q tendra cada objeto de la clase
     string grado;
     static vector<Estudiante> estudiantes;
-public:
+public:   // Parte publica de la clase, aka las funciones que se utilizan
     Estudiante(string nombre, int edad, string grado);
     void agregarEstudiante();
     void mostrarEstudiantes();
     void mostrar_info();
     void eliminarEstudiante(string nombre);
+
 };
 
 

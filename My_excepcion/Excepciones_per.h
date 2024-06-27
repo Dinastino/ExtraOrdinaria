@@ -9,8 +9,8 @@
 
 class Excepciones_per: public std::exception{
 public:
-    const char* what() const throw(){
-        return "Error en la operacion";
+    const char* what() const throw(){ //Al lanzar la excepcion en el catch se pondria un e.what() para que se muestre el mensaje
+        return "Error en la operacion"; //hay que tener en cuneta que este excepcion es lamas basica
     }
 
 
