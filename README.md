@@ -33,7 +33,7 @@ b.lanza una excepcion, Lanza una excepcion en un bloque try para ser capturada p
 
 *La funcion main*: que llama a todo y es la que se ejecuta al compilar, es decir es el centro del programa dado que sin ella no se podria ejecutar, si compilar pero no ejecutar.
 
-***La clase estudiante**
+***La clase estudiante***
 
 La clase Estudiante se divide en dos archivos el header o . h, y en el que instancian las funciones o .cpp. En el .h se define la clase y sus parametros, en la parte private,no se puede acceder mas que por la clase,: un nombre, una edad y un grado para cada estudiante ademas un vector de estudiantes que es static, significa que es el mismo para todos los objetos de la misma. Y una  parte publica: con un contructor, que incializa todos los valos de un estudiante excepto el vectos static, un funcion agregar estudiate ,que agrega un estudiante al vector, la función mostrat_info, muestra el nombre grado y edad del estudiante, y las funciones mostrarEstudiantes y eliminar estudiantes, que como sus nombres indican se dedican a mostrar el vector y a eliminar datos de el respectivamente.
 
